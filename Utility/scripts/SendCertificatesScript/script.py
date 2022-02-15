@@ -29,7 +29,7 @@ with open('participants.csv', newline='') as csvfile:
 if __name__ == '__main__':
     for participant in participants_list:
         status = send_dynamic_mail_with_attachment(os.environ['SEND_GRID_API_KEY'], os.environ['EMAIL_TEMPLATE_ID'], **{
-            'sender_mail': "gdg.algiers@esi.dz",
+            'sender_mail': os.environ['SENDER_EMAIL_ADDR'],
             'subject': '[DevFest Algiers 2021] Certificate of Participation',
             **participant
         })
