@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Quicksand:wght@300;400;500;600;700&display=swap');
+p{
+    /* color: crimson; */
+    background-color: green;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+   
+}
+h1{
+    color: green;
+    text-decoration: underline;
+    /* border-color: hotpink;
+    border-width: 3px;
+    border-style: dotted; */
+    border: 3px hotpink dotted;
+}
+

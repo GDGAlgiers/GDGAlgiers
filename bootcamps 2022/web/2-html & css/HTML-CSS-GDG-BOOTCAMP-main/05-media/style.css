@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.header,.footer{
+    text-align: center;
+    background-color: rgb(54, 164, 228);
+    padding: 20px;
+}
+.images,.about{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.images h3,.about h3{
+    text-decoration: blue underline;
+}
+
+img{
+    width: 150px;
+    height: 200px;
+    border: black 2px solid;
+}
+@media all and (max-width: 400px){
+    body{
+        font-size: 24px;
+    }
+   img{
+       display: block;
+       width: 80%;
+       height: 350px;
+       margin: auto;
+   }
+   .header,.footer{
+       background: rebeccapurple;
+   }
+
+}
+
+/* Responsive Styles */
+
+/* @media all and (max-width: 500px){
+     body{
+         font-size: 24px;
+     }
+    img{
+        display: block;
+        width: 80%;
+        height: 350px;
+        margin: auto;
+    }
+    .header,.footer{
+        background: rebeccapurple;
+    }
+
+} */

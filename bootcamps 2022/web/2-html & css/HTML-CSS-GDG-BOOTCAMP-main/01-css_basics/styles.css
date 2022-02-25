@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Quicksand:wght@300;400;500;600;700&display=swap');
+ 
+  p{
+      color: yellow;
+      background-color: red ;
+      /* border-color: black;
+      border-width: 2px;
+      border-style: solid; */
+      /* <=> */
+      border: black solid 2px;
+      font-family: 'Quicksand', sans-serif;
+      
+  }
+  h1{
+      color: seagreen;
+      /* border-color: blue;
+      border-width: 5px;
+      border-style: dotted; */
+      /* border: blue dotted 5px; */
+      border-bottom: 5px dotted blue;
+  }
+  .blabla{
+    background: yellow;
+    color: red ;
+  }
+  #gdg{
+      font-size: 30px;
+  }
+

@@ -1,0 +1,24 @@
+.main{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.square1{
+    height: 200px;
+    width: 200px;
+    background: rebeccapurple;
+}
+
+.square2{
+    height: 200px;
+    width: 200px;
+    background: rgb(154, 156, 15);
+}
+
+.square3{
+
+    height: 200px;
+    width: 200px;
+    background: rgb(153, 51, 51);
+
+}

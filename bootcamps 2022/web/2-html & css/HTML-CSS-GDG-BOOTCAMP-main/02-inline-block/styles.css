@@ -1,0 +1,26 @@
+
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+}
+span{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid green;
+}
+h4{
+    border: 2px solid green;
+    margin: 20px;
+    padding: 20px;
+}
+/* p{
+    border: solid 2pc green;
+}
+
+span{
+    display: block;
+    margin: 20px;
+    padding: 20px;
+} */
