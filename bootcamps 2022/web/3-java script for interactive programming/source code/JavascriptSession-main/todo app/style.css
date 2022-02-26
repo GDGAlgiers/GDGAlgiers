@@ -1,0 +1,90 @@
+body {
+    font-family: 'Roboto Mono';
+}
+
+.container {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.input-container {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #eee;
+
+}
+
+.input {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius:6px ;
+    padding: 10px;
+ }
+ .add {
+    background-color: #2f77ef;
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius:6px ;
+
+
+}
+.tasks {
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    margin-top: 20px;
+    padding: 20px ;
+    border-radius: 6px;
+    gap: 10px 0;
+
+}
+
+.tasks .task {
+    flex-grow:1 ;
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between ;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    /* transition: 0.3; */
+    transition: width 2s linear;
+
+}
+
+.tasks .task:hover {
+    background-color: #f7f7f7;
+  }
+
+ .task.completed {
+    opacity: 0.5;
+  }
+  /* .completed .txt {
+    text-decoration: line-through;
+
+  } */
+
+.task span.delete {
+    font-weight: bolder;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+    padding: 3px 8px;
+    cursor: pointer;
+
+}
+/* .completed span.delete {
+    opacity: 1;
+} */
+
+.input:focus {
+    outline: none;
+}

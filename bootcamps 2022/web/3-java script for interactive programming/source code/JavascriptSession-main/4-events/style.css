@@ -1,0 +1,12 @@
+* {
+    font-size: larger;
+    text-align: center;
+}
+
+.button {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2px 6px;
+    margin: 5px;
+    cursor: pointer;
+}
