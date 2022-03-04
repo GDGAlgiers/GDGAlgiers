@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Roboto";
+  color: #333;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #0f4cb8;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #0f4cb8;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.blogs-container {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blogs-container:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blogs-container h2 {
+  font-size: 20px;
+  color: #0f4cb8;
+  margin-bottom: 8px;
+}
+
+.blogs-container a {
+  text-decoration: none;
+}
+
+.blogs-container button {
+  background-color: red;
+  color: white;
+  border-width: 0;
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.blog-details h2 {
+  font-size: 20px;
+  color: #0f4cb8;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: red;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.new-blog {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.new-blog label {
+  text-align: left;
+  display: block;
+}
+.new-blog h2 {
+  font-size: 20px;
+  color: #0f4cb8;
+  margin-bottom: 30px;
+}
+.new-blog input,
+.new-blog textarea,
+.new-blog select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.new-blog button {
+  background: #0f4cb8;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}

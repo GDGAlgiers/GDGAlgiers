@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "id": 2,
+      "title": "MERN Stack",
+      "author": "noufel",
+      "body": "MERN Stack is a very powerful stack for building powerful websites"
+    },
+    {
+      "id": 3,
+      "title": "Remix vs Next",
+      "author": "sohaib",
+      "body": "Remix is a gama changer that will shine this year"
+    },
+    {
+      "id": 4,
+      "title": "CodeIT winners",
+      "author": "abdelatif",
+      "body": "Team one of code it won the CodeIT challenge of the GIP"
+    },
+    {
+      "title": "Another article",
+      "author": "Noufel",
+      "body": "This is a body",
+      "id": 6
+    }
+  ]
+}
