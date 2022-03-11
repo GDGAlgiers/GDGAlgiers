@@ -1,0 +1,33 @@
+[debug] [2022-03-11T13:57:32.647Z] ----------------------------------------------------------------------
+[debug] [2022-03-11T13:57:32.649Z] Command:       /usr/local/bin/firebase /home/darwin/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase apps:create ios flutter_application_1 (ios) --bundle-id=com.examplee.app --json --project=gdb-introduction-to-firebase
+[debug] [2022-03-11T13:57:32.649Z] CLI Version:   10.2.1
+[debug] [2022-03-11T13:57:32.650Z] Platform:      linux
+[debug] [2022-03-11T13:57:32.650Z] Node Version:  v12.18.1
+[debug] [2022-03-11T13:57:32.650Z] Time:          Fri Mar 11 2022 14:57:32 GMT+0100 (GMT+01:00)
+[debug] [2022-03-11T13:57:32.650Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-11T13:57:32.659Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-11T13:57:32.660Z] > authorizing via signed-in user (jm_bentayeb@esi.dz)
+[info] Create your IOS app in project gdb-introduction-to-firebase:
+[debug] [2022-03-11T13:57:32.666Z] >>> HTTP REQUEST POST https://firebase.googleapis.com/v1beta1/projects/gdb-introduction-to-firebase/iosApps  
+ {"displayName":"flutter_application_1 (ios)","bundleId":"com.examplee.app"}
+[debug] [2022-03-11T13:57:36.819Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 11 Mar 2022 13:57:36 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-03-11T13:57:36.825Z] > refreshing access token with scopes: []
+[debug] [2022-03-11T13:57:36.826Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-03-11T13:57:52.427Z] [Create iOS app Poller] Retrying task index 0
+[debug] [2022-03-11T13:57:52.428Z] > refreshing access token with scopes: []
+[debug] [2022-03-11T13:57:52.428Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-03-11T13:58:01.868Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Fri, 11 Mar 2022 13:57:55 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-03-11T13:58:01.890Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/projects/gdb-introduction-to-firebase/apps/MGNlNDBmYTAtNGU2OC00ZmEzLThhYWEtNjI3MzFmN2RiY2Vl [none]
+[debug] Task index 0 failed: timed out after 30000ms.
+[debug] [2022-03-11T13:58:06.835Z] Task index 0 failed: timed out after 30000ms.
+[debug] [2022-03-11T13:58:11.997Z] FirebaseError: Task index 0 failed: timed out after 30000ms.
+    at Timeout.<anonymous> (/home/darwin/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/throttler/throttler.js:170:24)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+[error] 
+[error] Error: Failed to create iOS app for project gdb-introduction-to-firebase. See firebase-debug.log for more info.
+[debug] [2022-03-11T13:58:12.005Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/projects/gdb-introduction-to-firebase/apps/MGNlNDBmYTAtNGU2OC00ZmEzLThhYWEtNjI3MzFmN2RiY2Vl 200
+[debug] [2022-03-11T13:58:12.006Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/projects/gdb-introduction-to-firebase/apps/MGNlNDBmYTAtNGU2OC00ZmEzLThhYWEtNjI3MzFmN2RiY2Vl {"name":"operations/projects/gdb-introduction-to-firebase/apps/MGNlNDBmYTAtNGU2OC00ZmEzLThhYWEtNjI3MzFmN2RiY2Vl","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.IosApp","name":"projects/gdb-introduction-to-firebase/iosApps/1:904706291432:ios:b3631db9b486365ee73b5d","appId":"1:904706291432:ios:b3631db9b486365ee73b5d","displayName":"flutter_application_1 (ios)","projectId":"gdb-introduction-to-firebase","bundleId":"com.examplee.app"}}
