@@ -1,4 +1,4 @@
-# introduction to Cyber Security & CTF session
+# data manipulation session
 
 you can find the slides of this session in this folder.
 
