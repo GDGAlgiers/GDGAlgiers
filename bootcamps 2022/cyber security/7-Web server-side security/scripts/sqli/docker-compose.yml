@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+    flask:
+      image: flask-app
+      build:
+        context: .
+      ports:
+        - "5000:5000"
